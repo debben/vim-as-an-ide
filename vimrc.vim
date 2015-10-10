@@ -39,7 +39,7 @@ set background=dark
 "let g:solarized_termcolors=256
 
 " Set the colorscheme
-colorscheme solarized
+colorscheme molokai
 
 
 " ----- bling/vim-airline settings -----
