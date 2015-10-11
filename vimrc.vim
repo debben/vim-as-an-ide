@@ -15,8 +15,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " ----- Making Vim look good ------------------------------------------
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'tomasr/molokai'
+Plugin 'morhetz/gruvbox'
 Plugin 'bling/vim-airline'
 
 " ----- Vim as a programmer's text editor -----------------------------
@@ -71,11 +70,9 @@ set mouse=a
 " Toggle this to "light" for light colorscheme
 set background=dark
 
-" Uncomment the next line if your terminal is not configured for solarized
-"let g:solarized_termcolors=256
 
 " Set the colorscheme
-colorscheme solarized
+colorscheme gruvbox
 
 
 " ----- bling/vim-airline settings -----
