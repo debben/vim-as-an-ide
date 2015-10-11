@@ -29,6 +29,9 @@ Plugin 'tpope/vim-fugitive'
 " ----- Other text editing features -----------------------------------
 Plugin 'Raimondi/delimitMate'
 
+" ----- tmux -----------------------------------------------
+Plugin 'christoomey/vim-tmux-navigator'
+
 call vundle#end()
 
 filetype plugin indent on
