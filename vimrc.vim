@@ -20,6 +20,7 @@ Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 Plugin 'kien/ctrlp.vim'
+Plugin 'vim-scripts/a.vim'
 
 call vundle#end()
 
