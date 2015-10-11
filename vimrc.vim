@@ -1,3 +1,9 @@
+" File: .vimrc
+" Author: Jake Zimmerman <jake@zimmerman.io>
+"
+" How I configure Vim :P
+"
+
 " Gotta be first
 set nocompatible
 
@@ -32,6 +38,16 @@ Plugin 'Raimondi/delimitMate'
 
 " ----- tmux -----------------------------------------------
 Plugin 'christoomey/vim-tmux-navigator'
+
+" ----- Syntax plugins ------------------------------------------------
+
+" ---- Extras/Advanced plugins ----------------------------------------
+" Highlight and strip trailing whitespace
+Plugin 'ntpeters/vim-better-whitespace'
+" Easily surround chunks of text
+Plugin 'tpope/vim-surround'
+" Automaticall insert the closing HTML tag
+Plugin 'HTML-AutoCloseTag'
 
 call vundle#end()
 
