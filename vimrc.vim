@@ -28,10 +28,6 @@ Plugin 'majutsushi/tagbar'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-scripts/a.vim'
 
-" ----- Working with Git ----------------------------------------------
-Plugin 'airblade/vim-gitgutter'
-Plugin 'tpope/vim-fugitive'
-
 " ----- Other text editing features -----------------------------------
 Plugin 'Raimondi/delimitMate'
 
@@ -59,6 +55,7 @@ set number
 set showcmd
 set incsearch
 set hlsearch
+set ff=dos "for my work pc, use windows line endings
 
 syntax on
 
@@ -74,8 +71,7 @@ set background=dark
 "let g:solarized_termcolors=256
 
 " Set the colorscheme
-colorscheme solarized
-
+colorscheme molokai
 
 " ----- bling/vim-airline settings -----
 " Always show statusbar
